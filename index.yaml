@@ -3,7 +3,21 @@ entries:
   defactops:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-23T20:06:00.7638212-04:00"
+    created: "2024-07-16T07:17:18.6570779-04:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.5.4
+    description: Helm chart to deploy a defactops website
+    digest: 660a22b70f977e056f32ccb6327b50f74e2434afa2995b6f307a54fac2dd7c75
+    name: defactops
+    type: application
+    urls:
+    - defactops-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-16T07:17:18.6515943-04:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -15,4 +29,4 @@ entries:
     urls:
     - defactops-1.0.1.tgz
     version: 1.0.1
-generated: "2024-06-23T20:06:00.757772-04:00"
+generated: "2024-07-16T07:17:18.642364-04:00"
